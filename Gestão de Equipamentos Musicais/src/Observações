@@ -1,0 +1,14 @@
+// O metodo para coletar o id para que o removeIf funcione deve retornar um valor.Ou seja, deve ser "public int getId()" utilizando o return com o "this."
+// deve haver uma variável receptora da operação de remoção do cadastro para dizer se foi removido ou não
+// O metodo de gerar id deve estar declarado no cadastro para que não seja retornado um "id = 0"
+// Nao se pode utilizar o metodo instrumentos(toString) na pesquisa, pois ele retorna todos os cadastros do Array
+// Para toda herança deve se criar um construtor
+// para toda classe filha, deve se criar um construtor passando de onde vem os parâmetros e quais são eles na respectiva ordem.....
+// EXEMPLO: public Musical(int id, String nome, String descricao) { super.(id, nome, descricao ); } 
+
+//Estruturas de Métodos
+
+// toString() -> public String toString(){  return .... variaveis utilizadas ....  }
+// removeIf -> removeIf(e. metodo de coleta do dado == parâmetro que determinará a exclusão caso exista)
+// método de busca -> if(nome do array .get... Parâmetro escolhido() .contains(ParâmetroDebusca .toLowerCase()) sout (.... metodos get() gerados)
+
